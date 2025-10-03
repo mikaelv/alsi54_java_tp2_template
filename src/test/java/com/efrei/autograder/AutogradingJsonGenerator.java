@@ -87,7 +87,7 @@ public class AutogradingJsonGenerator {
                             .append(method.getName())
                             .append("\",\n")
                             .append("      \"input\": \"\",\n")
-                            .append("      \"output\": \"PASSED\",\n")
+                            .append("      \"output\": \"BUILD SUCCESS\",\n")
                             .append("      \"comparison\": \"included\",\n")
                             .append("      \"timeout\": 10,\n")
                             .append("      \"points\": 1\n")
